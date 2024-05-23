@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{575B1B46-75F6-4DFC-B90C-415014F08FC0}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45D5E76E-7CC0-4D7A-87D7-4555CCB80F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C9CC29AA-AB94-4BB5-8545-B10387DD3682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "src\Api\Demo\Demo.csproj", "{6BE73B81-D963-4A0D-B435-8B22F395558C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE73B81-D963-4A0D-B435-8B22F395558C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE73B81-D963-4A0D-B435-8B22F395558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE73B81-D963-4A0D-B435-8B22F395558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE73B81-D963-4A0D-B435-8B22F395558C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9CC29AA-AB94-4BB5-8545-B10387DD3682} = {45D5E76E-7CC0-4D7A-87D7-4555CCB80F15}
+		{6BE73B81-D963-4A0D-B435-8B22F395558C} = {C9CC29AA-AB94-4BB5-8545-B10387DD3682}
+	EndGlobalSection
+EndGlobal
